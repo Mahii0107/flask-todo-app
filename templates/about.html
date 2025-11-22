@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %} About{% endblock title %} 
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+<body class="bg-light">
+    <div class="container my-5">
+
+        <div class="card p-4 shadow-lg border-0">
+            <h1 class="text-center mb-3">About This To-Do App</h1>
+            <p class="text-muted text-center mb-4">
+                A simple and clean To-Do application built using Flask, SQLAlchemy, and Bootstrap.
+            </p>
+
+            <h3>What This Website Does</h3>
+            <p>This web application allows you to create and manage a list of tasks quickly and easily. It is designed for beginners learning Flask and web development.</p>
+
+            <h3>Features You Can Use</h3>
+            <ul>
+                <li><strong>Add new tasks</strong> using the form on the homepage.</li>
+                <li><strong>View all your tasks</strong> displayed in a neat table.</li>
+                <li><strong>Update tasks</strong></li>
+                <li><strong>Delete tasks</strong> permanently from your list.</li>
+                <li><strong>Stores data</strong> using a database SQLite .</li>
+            </ul>
+
+            <h3>To Use The Website</h3>
+            <ol>
+                <li>Go to the <strong>Home</strong> page.</li>
+                <li>Enter your task title and description.</li>
+                <li>Press <strong>Add Task</strong> to save it.</li>
+                <li>Your task will appear in the list below.</li>
+                <li>Use <strong>Update</strong> or <strong>Delete</strong>.</li>
+            </ol>
+
+            <h3>Technology Used</h3>
+            <ul>
+                <li>Python Flask</li>
+                <li>Flask SQLAlchemy</li>
+                <li>Bootstrap 5</li>
+                <li>HTML + CSS</li>
+            </ul>
+
+            <p class="mt-4 text-center">
+                Made by Mahi while learning Flask.
+            </p>
+        </div>
+
+    </div>
+
+{% endblock body %}

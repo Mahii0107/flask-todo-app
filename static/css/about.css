@@ -1,0 +1,92 @@
+/* Body styling */
+body.bg-light {
+    background-color: #e6f2f1; /* Soft mint */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Container Card */
+.card {
+    background-color: #ffffff; /* White card for contrast */
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+.card h1, .card h3 {
+    color: #008080; /* Teal */
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.card p, .card ul, .card ol {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Lists */
+.card ul li, .card ol li {
+    margin-bottom: 0.5rem;
+}
+
+/* Emphasized text */
+.card strong {
+    color: #20c997; /* Mint accent for highlights */
+}
+
+/* Footer text */
+.card p.text-center {
+    color: #777;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}
+
+/* Links/buttons */
+.card a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #20c997; /* Mint */
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card a.btn:hover {
+    background-color: #17a589; /* Darker mint on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card h1 {
+        font-size: 2rem;
+    }
+
+    .card h3 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+
+# Database
+*.db
+*.sqlite
+
+# Personal notes
+learn.txt
+notes.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
